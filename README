@@ -1,0 +1,8 @@
+This package is a wrapper for Martin Shepherd's, libtecla, command-line
+editing library (www.astro.caltech.edu/~mcs/tecla/).
+
+The latest version of libtecla may be obtained from:
+
+    www.astro.caltech.edu/~mcs/tecla/libtecla.tar.gz
+
+This package is released under an MIT-style license. See LICENSE for details.
