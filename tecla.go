@@ -35,13 +35,10 @@ static CPL_MATCH_FN(complete) {
     return 0;
 }
 
-void do_nothing(int unused) { return; }
-
 static GetLine* init(void) {
     GetLine* reader = new_GetLine(1024, 16384);
 
     gl_ignore_signal(reader, SIGINT);
-    signal(SIGINT, do_nothing);
 
     gl_customize_completion(reader, NULL, complete);
 
