@@ -46,6 +46,7 @@ static GetLine* init(void) {
 }
 
 #cgo LDFLAGS:-ltecla
+#cgo darwin LDFLAGS:-lncurses
 #cgo freebsd LDFLAGS:-lcurses
 #cgo linux LDFLAGS:-lncurses
 */
