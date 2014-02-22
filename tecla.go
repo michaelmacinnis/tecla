@@ -39,6 +39,7 @@ static GetLine* init(void) {
     GetLine* reader = new_GetLine(1024, 16384);
 
     gl_ignore_signal(reader, SIGINT);
+    gl_ignore_signal(reader, SIGTSTP);
 
     gl_customize_completion(reader, NULL, complete);
 
