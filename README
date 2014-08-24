@@ -1,3 +1,6 @@
+Note: If you are looking for a command-line editing library, please use
+peterh's pure Go line editor, liner (github.com/peterh/liner), instead.
+
 This package is a wrapper for Martin Shepherd's, libtecla, command-line
 editing library (www.astro.caltech.edu/~mcs/tecla/).
 
